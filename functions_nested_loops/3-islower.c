@@ -3,12 +3,12 @@
 /**
  * main - Check for lowercase letters
  *
- * Return: Always o (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char c;
+	int c;
 
 	if (c >= 'a'; c <= 'z')
 		return (1);
