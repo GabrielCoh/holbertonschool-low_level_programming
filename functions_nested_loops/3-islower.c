@@ -3,15 +3,14 @@
 /**
  * main - Check for lowercase letters
  *
- * Return: Always 0 (Success)
+ * Return: 1 for lowercase c and 0 for anythinf else
  */
 
 int main(void)
 {
-	int c;
-
-	if (c >= 'a'; c <= 'z')
+	if (c >= 97 && c <= 122)
+	{
 		return (1);
-	else
-		return (0);
-}
+	}
+	return (0);
+}	
