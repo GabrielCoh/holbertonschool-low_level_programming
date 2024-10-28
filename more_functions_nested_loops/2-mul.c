@@ -4,11 +4,10 @@
  * mul - Multiplies two integrers
  * @a: First integrer
  * @b: second integrer
- * Return: Always 0
+ * Return: Multiplication result
  */
 
 int mul(int a, int b)
 {
-	for (a * b);
-	return (0);
+	return (a * b);
 }
