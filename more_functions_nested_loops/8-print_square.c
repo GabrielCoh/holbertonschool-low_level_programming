@@ -2,7 +2,7 @@
 
 /**
  * print_square - Print a square
- *
+ * @size: The size of the square
  * Return: void
  */
 
@@ -23,6 +23,6 @@ void print_square(int size)
 				_putchar(35);
 			}
 			_putchar('\n');
-                }
-        }
+		}
+	}
 }
