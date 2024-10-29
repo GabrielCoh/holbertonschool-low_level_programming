@@ -15,11 +15,11 @@ void rev_string(char *s)
 	a = 0;
 	temp = 0;
 
-	while (s[count] < '\0')
+	while (s[count] != '\0')
 	{
 		count++;
 	}
-	b = count - 1;
+	b = (count - 1);
 	while (a < (count / 2))
 	{
 		temp = s[a];
