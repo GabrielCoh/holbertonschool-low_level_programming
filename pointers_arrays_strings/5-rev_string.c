@@ -3,12 +3,13 @@
 /**
  * rev_string - print a string in reverse
  * @s: pointer
+ * @count: number of characters in the string
  * Return: void
  */
 
 void rev_string(char *s)
 {
-	int a, b, temp;
+	int a, b, temp, count;
 
 	a = 0;
 	temp = 0;
