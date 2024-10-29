@@ -2,7 +2,8 @@
 
 /**
  * swap_int -Swap the value of two integrers
- *
+ * @a: pointer a
+ * @b: pointer b
  * Return: void
  */
 
