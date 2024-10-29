@@ -2,7 +2,7 @@
 
 /**
  * _puts - print a string to stdout
- * @str: string to be printed
+ * @str: argument
  * Return: string to stdout
  */
 
