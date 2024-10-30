@@ -9,21 +9,25 @@
 int _atoi(char *s)
 {
 	int a;
-	int sum;
+	int b;
+	int i;
 
 	a = 0;
-	sum = 0;
-	while (s[a] != '\0')
+	b = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[a] < 48 || s[a] > 57)
+		if (s[i] == '-')
 		{
-			return (0);
+			b++;
 		}
-		else
+		if (s[i] > 47 && s[i] < 58)
 		{
-			sum = sum * 10 + (s[a] - 48);
-			a++;
+			while (s[i] > 47 && s[i] < 58)
+
+				a = a * 10 - (s[i++] - 48);
+			break;
 		}
 	}
-	return (sum);
+	return (a *= b % 2 == 0 ? -1 : 1);
 }
