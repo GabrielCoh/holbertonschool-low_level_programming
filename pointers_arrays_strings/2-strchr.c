@@ -15,7 +15,10 @@ char *_strchr(char *s, char c)
 		{
 			return (s);
 		}
+		else (*s != c)
+		{
+			return (NULL);
+		}
 		s++;
 	}
-	return (NULL);
 }
