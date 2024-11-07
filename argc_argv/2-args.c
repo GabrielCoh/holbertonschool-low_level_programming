@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main - print all arguments it receives
+ * @argc: argument count
+ * @argv: size of argc
+ * Return: 0
+ */
+
+int main (int argc, char *argv[])
+{
+	int a;
+
+	for (a = 0, a < argc; a++)
+	{
+		printf("%\n", argv[a]);
+	}
+	return (0);
+}
