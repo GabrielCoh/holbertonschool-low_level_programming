@@ -1,3 +1,11 @@
+#include "function_pointer.h"
+
+/**
+ * op_add - do an addition
+ * @a: integer
+ * @b: integer
+ * Return: sum of a and b
+ */
 
 int op_add(int a, int b)
 {
