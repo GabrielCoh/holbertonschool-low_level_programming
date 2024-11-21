@@ -1,11 +1,3 @@
-#include "3-calc.h"
-
-/**
- * op_add - do an addition
- * @a: interger
- * @b: integer
- * Return: sum of a and b
- */
 
 int op_add(int a, int b)
 {
