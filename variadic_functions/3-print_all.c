@@ -2,10 +2,6 @@
 
 /**
  * print_all - Entry Point
- * @c: char
- * @i: int
- * @f: float
- * @s: char *
  * @format: list of arg types
  * Return: 0
  */
